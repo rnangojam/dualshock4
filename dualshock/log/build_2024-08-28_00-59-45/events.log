@@ -1,0 +1,372 @@
+[0.000000] (-) TimerEvent: {}
+[0.001581] (ds4_driver_msgs) JobQueued: {'identifier': 'ds4_driver_msgs', 'dependencies': OrderedDict()}
+[0.002175] (ds4_driver) JobQueued: {'identifier': 'ds4_driver', 'dependencies': OrderedDict([('ds4_driver_msgs', '/home/ubuntu/dualshock/install/ds4_driver_msgs')])}
+[0.002713] (ds4_driver_msgs) JobStarted: {'identifier': 'ds4_driver_msgs'}
+[0.039115] (ds4_driver_msgs) JobProgress: {'identifier': 'ds4_driver_msgs', 'progress': 'cmake'}
+[0.042716] (ds4_driver_msgs) JobProgress: {'identifier': 'ds4_driver_msgs', 'progress': 'build'}
+[0.046363] (ds4_driver_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/dualshock/build/ds4_driver_msgs', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/dualshock/build/ds4_driver_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.22 64628 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/dualshock/install/ds4_driver_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/dualshock/install'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dualshock/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dualshock/install/ds4_driver:/home/ubuntu/dualshock/install/ds4_driver_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/dualshock/build/ds4_driver_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.22 64628 192.168.0.19 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages:/home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dualshock/install/ds4_driver:/home/ubuntu/dualshock/install/ds4_driver_msgs:/opt/ros/humble')]), 'shell': False}
+[0.099052] (-) TimerEvent: {}
+[0.200245] (-) TimerEvent: {}
+[0.276537] (ds4_driver_msgs) StdoutLine: {'line': b'[  1%] Built target ds4_driver_msgs__cpp\n'}
+[0.288408] (ds4_driver_msgs) StdoutLine: {'line': b'[ 12%] Built target ds4_driver_msgs__rosidl_generator_c\n'}
+[0.300508] (-) TimerEvent: {}
+[0.325655] (ds4_driver_msgs) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_ds4_driver_msgs\n'}
+[0.382995] (ds4_driver_msgs) StdoutLine: {'line': b'[ 23%] Built target ds4_driver_msgs__rosidl_typesupport_cpp\n'}
+[0.400741] (-) TimerEvent: {}
+[0.408504] (ds4_driver_msgs) StdoutLine: {'line': b'[ 45%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[0.409359] (ds4_driver_msgs) StdoutLine: {'line': b'[ 45%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_cpp\n'}
+[0.480174] (ds4_driver_msgs) StdoutLine: {'line': b'[ 56%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c\n'}
+[0.501084] (ds4_driver_msgs) StdoutLine: {'line': b'[ 67%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c\n'}
+[0.501915] (-) TimerEvent: {}
+[0.518607] (ds4_driver_msgs) StdoutLine: {'line': b'[ 78%] Built target ds4_driver_msgs__rosidl_typesupport_c\n'}
+[0.602166] (-) TimerEvent: {}
+[0.603442] (ds4_driver_msgs) StdoutLine: {'line': b'[ 78%] Built target ds4_driver_msgs\n'}
+[0.692452] (ds4_driver_msgs) StdoutLine: {'line': b'[ 80%] Built target ds4_driver_msgs__py\n'}
+[0.702372] (-) TimerEvent: {}
+[0.790531] (ds4_driver_msgs) StdoutLine: {'line': b'[ 89%] Built target ds4_driver_msgs__rosidl_generator_py\n'}
+[0.802831] (-) TimerEvent: {}
+[0.899551] (ds4_driver_msgs) StdoutLine: {'line': b'[ 92%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[0.903007] (-) TimerEvent: {}
+[0.909031] (ds4_driver_msgs) StdoutLine: {'line': b'[ 96%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.929567] (ds4_driver_msgs) StdoutLine: {'line': b'[100%] Built target ds4_driver_msgs__rosidl_typesupport_c__pyext\n'}
+[1.003168] (-) TimerEvent: {}
+[1.103859] (-) TimerEvent: {}
+[1.204496] (-) TimerEvent: {}
+[1.305128] (-) TimerEvent: {}
+[1.405789] (-) TimerEvent: {}
+[1.506505] (-) TimerEvent: {}
+[1.585536] (ds4_driver_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.589106] (ds4_driver_msgs) StdoutLine: {'line': b'writing ds4_driver_msgs.egg-info/PKG-INFO\n'}
+[1.590147] (ds4_driver_msgs) StdoutLine: {'line': b'writing dependency_links to ds4_driver_msgs.egg-info/dependency_links.txt\n'}
+[1.591449] (ds4_driver_msgs) StdoutLine: {'line': b'writing top-level names to ds4_driver_msgs.egg-info/top_level.txt\n'}
+[1.601418] (ds4_driver_msgs) StdoutLine: {'line': b"reading manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'\n"}
+[1.604404] (ds4_driver_msgs) StdoutLine: {'line': b"writing manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'\n"}
+[1.606781] (-) TimerEvent: {}
+[1.708033] (-) TimerEvent: {}
+[1.736351] (ds4_driver_msgs) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_ds4_driver_msgs_egg\n'}
+[1.780427] (ds4_driver_msgs) CommandEnded: {'returncode': 0}
+[1.808236] (-) TimerEvent: {}
+[1.908986] (-) TimerEvent: {}
+[2.009835] (-) TimerEvent: {}
+[2.110942] (-) TimerEvent: {}
+[2.212145] (-) TimerEvent: {}
+[2.312919] (-) TimerEvent: {}
+[2.414211] (-) TimerEvent: {}
+[2.515047] (-) TimerEvent: {}
+[2.544922] (ds4_driver_msgs) JobProgress: {'identifier': 'ds4_driver_msgs', 'progress': 'install'}
+[2.578222] (ds4_driver_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/dualshock/build/ds4_driver_msgs'], 'cwd': '/home/ubuntu/dualshock/build/ds4_driver_msgs', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.22 64628 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/dualshock/install/ds4_driver_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/dualshock/install'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dualshock/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dualshock/install/ds4_driver:/home/ubuntu/dualshock/install/ds4_driver_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/dualshock/build/ds4_driver_msgs'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.22 64628 192.168.0.19 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages:/home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dualshock/install/ds4_driver:/home/ubuntu/dualshock/install/ds4_driver_msgs:/opt/ros/humble')]), 'shell': False}
+[2.612959] (ds4_driver_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.613788] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ament_index/resource_index/rosidl_interfaces/ds4_driver_msgs\n'}
+[2.614480] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[2.615094] (-) TimerEvent: {}
+[2.615696] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[2.616252] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/report.h\n'}
+[2.616669] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/feedback.h\n'}
+[2.616993] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/status.h\n'}
+[2.617364] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[2.618367] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.h\n'}
+[2.619127] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__struct.h\n'}
+[2.619655] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__functions.h\n'}
+[2.620172] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__functions.h\n'}
+[2.622193] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__functions.h\n'}
+[2.622646] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__functions.h\n'}
+[2.624011] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.h\n'}
+[2.625138] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.h\n'}
+[2.625728] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__functions.c\n'}
+[2.626804] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__struct.h\n'}
+[2.627902] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__functions.c\n'}
+[2.628586] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__struct.h\n'}
+[2.628947] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__struct.h\n'}
+[2.629424] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__functions.c\n'}
+[2.630214] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__functions.c\n'}
+[2.631289] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.h\n'}
+[2.632085] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.632871] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/trackpad.h\n'}
+[2.633552] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/library_path.sh\n'}
+[2.634121] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/library_path.dsv\n'}
+[2.634948] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_c.so\n'}
+[2.635654] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[2.636219] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[2.636787] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.637563] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[2.638510] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_fastrtps_c.h\n'}
+[2.639175] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_fastrtps_c.h\n'}
+[2.639584] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h\n'}
+[2.640063] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h\n'}
+[2.640593] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[2.640964] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[2.641497] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[2.642130] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/status.hpp\n'}
+[2.642711] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/report.hpp\n'}
+[2.643359] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/trackpad.hpp\n'}
+[2.644035] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[2.644688] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__traits.hpp\n'}
+[2.645258] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__builder.hpp\n'}
+[2.645798] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__builder.hpp\n'}
+[2.646155] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__traits.hpp\n'}
+[2.646809] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__struct.hpp\n'}
+[2.647241] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__struct.hpp\n'}
+[2.647576] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__struct.hpp\n'}
+[2.648071] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__struct.hpp\n'}
+[2.648550] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__builder.hpp\n'}
+[2.649192] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__traits.hpp\n'}
+[2.649619] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__traits.hpp\n'}
+[2.650251] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__builder.hpp\n'}
+[2.650973] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/feedback.hpp\n'}
+[2.651529] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[2.652232] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[2.653096] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.653550] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[2.654122] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.654800] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/dds_fastrtps\n'}
+[2.655448] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.655870] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.656207] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.656834] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.657227] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[2.657563] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[2.658041] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[2.658550] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.c\n'}
+[2.659212] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h\n'}
+[2.659619] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.c\n'}
+[2.660275] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_introspection_c.h\n'}
+[2.660975] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.c\n'}
+[2.661632] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_c.h\n'}
+[2.662119] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h\n'}
+[2.662503] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.c\n'}
+[2.663127] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.663567] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_c.so\n'}
+[2.663964] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_c.so\n'}
+[2.664542] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs\n'}
+[2.664951] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg\n'}
+[2.665382] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail\n'}
+[2.665939] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.cpp\n'}
+[2.666314] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.cpp\n'}
+[2.667141] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.667721] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.668363] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.cpp\n'}
+[2.668989] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.cpp\n'}
+[2.669593] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.670070] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.670735] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[2.671356] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_cpp.so\n'}
+[2.672091] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/pythonpath.sh\n'}
+[2.672677] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/pythonpath.dsv\n'}
+[2.673401] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info\n'}
+[2.673876] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.674460] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.674910] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.675306] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.675681] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs\n'}
+[2.676013] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/__init__.py\n'}
+[2.676384] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.676938] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[2.677346] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.677819] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.678242] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/libds4_driver_msgs__rosidl_generator_py.so\n'}
+[2.678623] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.678925] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg\n'}
+[2.679424] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/__init__.py\n'}
+[2.679806] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad.py\n'}
+[2.680111] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad_s.c\n'}
+[2.680523] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report.py\n'}
+[2.680916] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback_s.c\n'}
+[2.681427] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report_s.c\n'}
+[2.681946] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status_s.c\n'}
+[2.682469] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback.py\n'}
+[2.683148] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status.py\n'}
+[2.683638] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.715669] (-) TimerEvent: {}
+[2.816395] (-) TimerEvent: {}
+[2.840710] (ds4_driver_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs'...\n"}
+[2.842539] (ds4_driver_msgs) StdoutLine: {'line': b"Listing '/home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg'...\n"}
+[2.869302] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.871595] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.874145] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[2.876604] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_py.so\n'}
+[2.878157] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Feedback.idl\n'}
+[2.878973] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Status.idl\n'}
+[2.879633] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Report.idl\n'}
+[2.880436] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Trackpad.idl\n'}
+[2.881149] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Feedback.msg\n'}
+[2.881707] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Status.msg\n'}
+[2.882140] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Report.msg\n'}
+[2.882863] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Trackpad.msg\n'}
+[2.883470] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ament_index/resource_index/package_run_dependencies/ds4_driver_msgs\n'}
+[2.884010] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ament_index/resource_index/parent_prefix_path/ds4_driver_msgs\n'}
+[2.884526] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/ament_prefix_path.sh\n'}
+[2.885080] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/ament_prefix_path.dsv\n'}
+[2.885809] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/path.sh\n'}
+[2.886360] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/path.dsv\n'}
+[2.887261] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.bash\n'}
+[2.887788] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.sh\n'}
+[2.888261] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.zsh\n'}
+[2.888812] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.dsv\n'}
+[2.889368] (ds4_driver_msgs) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.dsv\n'}
+[2.889958] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ament_index/resource_index/packages/ds4_driver_msgs\n'}
+[2.890766] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cExport.cmake\n'}
+[2.891324] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.892016] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.892550] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.893113] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cppExport.cmake\n'}
+[2.893707] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.894348] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.895124] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.895868] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.896489] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cExport.cmake\n'}
+[2.897185] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.897939] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.898751] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.899563] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[2.900204] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.900916] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_pyExport.cmake\n'}
+[2.901559] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.902261] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[2.903011] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.903768] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.904445] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.905145] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.905846] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.906465] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.907107] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgsConfig.cmake\n'}
+[2.907543] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgsConfig-version.cmake\n'}
+[2.908182] (ds4_driver_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.xml\n'}
+[2.913457] (ds4_driver_msgs) CommandEnded: {'returncode': 0}
+[2.916674] (-) TimerEvent: {}
+[3.017322] (-) TimerEvent: {}
+[3.118157] (-) TimerEvent: {}
+[3.219066] (-) TimerEvent: {}
+[3.319838] (-) TimerEvent: {}
+[3.420586] (-) TimerEvent: {}
+[3.521374] (-) TimerEvent: {}
+[3.622234] (-) TimerEvent: {}
+[3.722935] (-) TimerEvent: {}
+[3.764809] (ds4_driver_msgs) JobEnded: {'identifier': 'ds4_driver_msgs', 'rc': 0}
+[3.769731] (ds4_driver) JobStarted: {'identifier': 'ds4_driver'}
+[3.805804] (ds4_driver) JobProgress: {'identifier': 'ds4_driver', 'progress': 'cmake'}
+[3.809245] (ds4_driver) JobProgress: {'identifier': 'ds4_driver', 'progress': 'build'}
+[3.810770] (ds4_driver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ubuntu/dualshock/build/ds4_driver', '--', '-j4', '-l4'], 'cwd': '/home/ubuntu/dualshock/build/ds4_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.22 64628 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/dualshock/install/ds4_driver_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/dualshock/install'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dualshock/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dualshock/install/ds4_driver:/home/ubuntu/dualshock/install/ds4_driver_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/dualshock/build/ds4_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.22 64628 192.168.0.19 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages:/home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/dualshock/install/ds4_driver:/opt/ros/humble')]), 'shell': False}
+[3.823096] (-) TimerEvent: {}
+[3.912168] (ds4_driver) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[3.923258] (-) TimerEvent: {}
+[4.023980] (-) TimerEvent: {}
+[4.124745] (-) TimerEvent: {}
+[4.225439] (-) TimerEvent: {}
+[4.326188] (-) TimerEvent: {}
+[4.426920] (-) TimerEvent: {}
+[4.527621] (-) TimerEvent: {}
+[4.538490] (ds4_driver) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[4.627798] (-) TimerEvent: {}
+[4.678950] (ds4_driver) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[4.689932] (ds4_driver) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[4.714234] (ds4_driver) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[4.727949] (-) TimerEvent: {}
+[4.753485] (ds4_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.803563] (ds4_driver) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.828105] (-) TimerEvent: {}
+[4.928800] (-) TimerEvent: {}
+[5.019926] (ds4_driver) StdoutLine: {'line': b'-- Found ds4_driver_msgs: 0.0.0 (/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake)\n'}
+[5.028954] (-) TimerEvent: {}
+[5.089354] (ds4_driver) StdoutLine: {'line': b'-- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[5.090316] (ds4_driver) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.129130] (-) TimerEvent: {}
+[5.229807] (-) TimerEvent: {}
+[5.330534] (-) TimerEvent: {}
+[5.431286] (-) TimerEvent: {}
+[5.532248] (-) TimerEvent: {}
+[5.632964] (-) TimerEvent: {}
+[5.733613] (-) TimerEvent: {}
+[5.834385] (-) TimerEvent: {}
+[5.935359] (-) TimerEvent: {}
+[5.984279] (ds4_driver) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[6.022912] (ds4_driver) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[6.032256] (ds4_driver) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[6.035534] (-) TimerEvent: {}
+[6.036526] (ds4_driver) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[6.061933] (ds4_driver) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[6.070703] (ds4_driver) StdoutLine: {'line': b'-- Configuring done\n'}
+[6.131860] (ds4_driver) StdoutLine: {'line': b'-- Generating done\n'}
+[6.135705] (-) TimerEvent: {}
+[6.144984] (ds4_driver) StdoutLine: {'line': b'-- Build files have been written to: /home/ubuntu/dualshock/build/ds4_driver\n'}
+[6.235947] (-) TimerEvent: {}
+[6.316845] (ds4_driver) StdoutLine: {'line': b'Built target ament_cmake_python_copy_ds4_driver\n'}
+[6.336197] (-) TimerEvent: {}
+[6.437101] (-) TimerEvent: {}
+[6.538571] (-) TimerEvent: {}
+[6.639791] (-) TimerEvent: {}
+[6.740618] (-) TimerEvent: {}
+[6.842039] (-) TimerEvent: {}
+[6.943551] (-) TimerEvent: {}
+[7.045172] (-) TimerEvent: {}
+[7.145895] (-) TimerEvent: {}
+[7.246635] (-) TimerEvent: {}
+[7.347268] (-) TimerEvent: {}
+[7.447951] (-) TimerEvent: {}
+[7.548813] (-) TimerEvent: {}
+[7.565737] (ds4_driver) StdoutLine: {'line': b'running egg_info\n'}
+[7.568595] (ds4_driver) StdoutLine: {'line': b'writing ds4_driver.egg-info/PKG-INFO\n'}
+[7.570201] (ds4_driver) StdoutLine: {'line': b'writing dependency_links to ds4_driver.egg-info/dependency_links.txt\n'}
+[7.571315] (ds4_driver) StdoutLine: {'line': b'writing top-level names to ds4_driver.egg-info/top_level.txt\n'}
+[7.580698] (ds4_driver) StdoutLine: {'line': b"reading manifest file 'ds4_driver.egg-info/SOURCES.txt'\n"}
+[7.583296] (ds4_driver) StdoutLine: {'line': b"writing manifest file 'ds4_driver.egg-info/SOURCES.txt'\n"}
+[7.649165] (-) TimerEvent: {}
+[7.710496] (ds4_driver) StdoutLine: {'line': b'Built target ament_cmake_python_build_ds4_driver_egg\n'}
+[7.748288] (ds4_driver) CommandEnded: {'returncode': 0}
+[7.749437] (-) TimerEvent: {}
+[7.850782] (-) TimerEvent: {}
+[7.866816] (ds4_driver) JobProgress: {'identifier': 'ds4_driver', 'progress': 'install'}
+[7.867993] (ds4_driver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ubuntu/dualshock/build/ds4_driver'], 'cwd': '/home/ubuntu/dualshock/build/ds4_driver', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ubuntu'), ('SSH_CLIENT', '192.168.0.22 64628 22'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ubuntu/dualshock/install/ds4_driver_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ubuntu'), ('OLDPWD', '/home/ubuntu/dualshock/install'), ('SSH_TTY', '/dev/pts/2'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLCON_PREFIX_PATH', '/home/ubuntu/dualshock/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ubuntu'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '22'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ubuntu/dualshock/install/ds4_driver:/home/ubuntu/dualshock/install/ds4_driver_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ubuntu/dualshock/build/ds4_driver'), ('LC_ALL', 'en_US.UTF-8'), ('SSH_CONNECTION', '192.168.0.22 64628 192.168.0.19 22'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages:/home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/dualshock/install/ds4_driver:/opt/ros/humble')]), 'shell': False}
+[7.901525] (ds4_driver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.902278] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/pythonpath.sh\n'}
+[7.902847] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/pythonpath.dsv\n'}
+[7.904044] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info\n'}
+[7.904642] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/SOURCES.txt\n'}
+[7.905794] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/dependency_links.txt\n'}
+[7.907147] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/PKG-INFO\n'}
+[7.908293] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/top_level.txt\n'}
+[7.909612] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver\n'}
+[7.910271] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/__init__.py\n'}
+[7.910780] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/logger.py\n'}
+[7.911377] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller_ros.py\n'}
+[7.911813] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller.py\n'}
+[7.950965] (-) TimerEvent: {}
+[8.050992] (ds4_driver) StdoutLine: {'line': b"Listing '/home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver'...\n"}
+[8.052461] (-) TimerEvent: {}
+[8.073358] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//config\n'}
+[8.074084] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//config/params.yaml\n'}
+[8.074737] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//config/twist_6dof.yaml\n'}
+[8.075241] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//config/twist_2dof.yaml\n'}
+[8.075758] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//launch\n'}
+[8.076218] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//launch/ds4_driver.launch.xml\n'}
+[8.076660] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//launch/ds4_twist.launch.xml\n'}
+[8.077035] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//launch/test.launch.py\n'}
+[8.077440] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//launch/demo.launch.xml\n'}
+[8.078046] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//nodes\n'}
+[8.078618] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//nodes/ds4_driver_node.py\n'}
+[8.079694] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//nodes/ds4_twist_node.py\n'}
+[8.080245] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//nodes/ds4_test_node.py\n'}
+[8.080611] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//nodes/demo.py\n'}
+[8.081145] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/lib/ds4_driver/demo.py\n'}
+[8.081641] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/lib/ds4_driver/ds4_driver_node.py\n'}
+[8.082077] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/lib/ds4_driver/ds4_twist_node.py\n'}
+[8.082576] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/lib/ds4_driver/ds4_test_node.py\n'}
+[8.083019] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ament_index/resource_index/package_run_dependencies/ds4_driver\n'}
+[8.083470] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ament_index/resource_index/parent_prefix_path/ds4_driver\n'}
+[8.084339] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/ament_prefix_path.sh\n'}
+[8.085160] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/ament_prefix_path.dsv\n'}
+[8.086039] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/path.sh\n'}
+[8.086943] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/path.dsv\n'}
+[8.087770] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/local_setup.bash\n'}
+[8.088322] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/local_setup.sh\n'}
+[8.088785] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/local_setup.zsh\n'}
+[8.089258] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/local_setup.dsv\n'}
+[8.090091] (ds4_driver) StdoutLine: {'line': b'-- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.dsv\n'}
+[8.091400] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ament_index/resource_index/packages/ds4_driver\n'}
+[8.091997] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig.cmake\n'}
+[8.092490] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig-version.cmake\n'}
+[8.092982] (ds4_driver) StdoutLine: {'line': b'-- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.xml\n'}
+[8.098149] (ds4_driver) CommandEnded: {'returncode': 0}
+[8.152671] (-) TimerEvent: {}
+[8.253417] (-) TimerEvent: {}
+[8.281852] (ds4_driver) JobEnded: {'identifier': 'ds4_driver', 'rc': 0}
+[8.284570] (-) EventReactorShutdown: {}

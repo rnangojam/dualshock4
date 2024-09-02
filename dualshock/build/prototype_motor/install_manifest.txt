@@ -1,0 +1,16 @@
+/home/ubuntu/dualshock/install/prototype_motor/lib/prototype_motor/nurimotor
+/home/ubuntu/dualshock/install/prototype_motor/share/ament_index/resource_index/package_run_dependencies/prototype_motor
+/home/ubuntu/dualshock/install/prototype_motor/share/ament_index/resource_index/parent_prefix_path/prototype_motor
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/environment/ament_prefix_path.sh
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/environment/ament_prefix_path.dsv
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/environment/path.sh
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/environment/path.dsv
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/local_setup.bash
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/local_setup.sh
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/local_setup.zsh
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/local_setup.dsv
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.dsv
+/home/ubuntu/dualshock/install/prototype_motor/share/ament_index/resource_index/packages/prototype_motor
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/cmake/prototype_motorConfig.cmake
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/cmake/prototype_motorConfig-version.cmake
+/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.xml

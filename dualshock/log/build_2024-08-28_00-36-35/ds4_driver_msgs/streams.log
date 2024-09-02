@@ -1,0 +1,199 @@
+[0.064s] Invoking command in '/home/ubuntu/dualshock/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/ds4_driver_msgs -- -j4 -l4
+[0.278s] [  1%] Built target ds4_driver_msgs__cpp
+[0.299s] [ 12%] Built target ds4_driver_msgs__rosidl_generator_c
+[0.334s] [ 12%] Built target ament_cmake_python_copy_ds4_driver_msgs
+[0.391s] [ 23%] Built target ds4_driver_msgs__rosidl_typesupport_cpp
+[0.428s] [ 34%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_cpp
+[0.447s] [ 45%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c
+[0.503s] [ 56%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c
+[0.536s] [ 67%] Built target ds4_driver_msgs__rosidl_typesupport_c
+[0.541s] [ 78%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_cpp
+[0.632s] [ 78%] Built target ds4_driver_msgs
+[0.724s] [ 80%] Built target ds4_driver_msgs__py
+[0.828s] [ 89%] Built target ds4_driver_msgs__rosidl_generator_py
+[0.933s] [ 92%] Built target ds4_driver_msgs__rosidl_typesupport_introspection_c__pyext
+[0.943s] [ 96%] Built target ds4_driver_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.949s] [100%] Built target ds4_driver_msgs__rosidl_typesupport_c__pyext
+[1.678s] running egg_info
+[1.682s] writing ds4_driver_msgs.egg-info/PKG-INFO
+[1.683s] writing dependency_links to ds4_driver_msgs.egg-info/dependency_links.txt
+[1.684s] writing top-level names to ds4_driver_msgs.egg-info/top_level.txt
+[1.694s] reading manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[1.697s] writing manifest file 'ds4_driver_msgs.egg-info/SOURCES.txt'
+[1.822s] [100%] Built target ament_cmake_python_build_ds4_driver_msgs_egg
+[1.865s] Invoked command in '/home/ubuntu/dualshock/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/ds4_driver_msgs -- -j4 -l4
+[2.613s] Invoking command in '/home/ubuntu/dualshock/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dualshock/build/ds4_driver_msgs
+[2.641s] -- Install configuration: ""
+[2.641s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ament_index/resource_index/rosidl_interfaces/ds4_driver_msgs
+[2.642s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[2.642s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[2.643s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/report.h
+[2.643s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/feedback.h
+[2.644s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/status.h
+[2.644s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[2.644s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.h
+[2.645s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__struct.h
+[2.645s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__functions.h
+[2.646s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__functions.h
+[2.647s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__functions.h
+[2.648s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__functions.h
+[2.649s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.h
+[2.649s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.h
+[2.650s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__functions.c
+[2.650s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__struct.h
+[2.650s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__functions.c
+[2.651s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__struct.h
+[2.651s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__struct.h
+[2.652s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__functions.c
+[2.652s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__functions.c
+[2.653s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.h
+[2.654s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_generator_c__visibility_control.h
+[2.654s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/trackpad.h
+[2.655s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/library_path.sh
+[2.655s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/library_path.dsv
+[2.655s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_c.so
+[2.656s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[2.656s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[2.657s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[2.657s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[2.658s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_fastrtps_c.h
+[2.658s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_fastrtps_c.h
+[2.658s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_c.h
+[2.659s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[2.659s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_c.so
+[2.660s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[2.660s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[2.661s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/status.hpp
+[2.661s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/report.hpp
+[2.662s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/trackpad.hpp
+[2.662s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[2.662s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__traits.hpp
+[2.663s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__builder.hpp
+[2.663s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__builder.hpp
+[2.664s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__traits.hpp
+[2.664s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__struct.hpp
+[2.665s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__struct.hpp
+[2.665s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__struct.hpp
+[2.666s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__struct.hpp
+[2.666s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__builder.hpp
+[2.667s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__traits.hpp
+[2.667s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__traits.hpp
+[2.668s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__builder.hpp
+[2.668s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/feedback.hpp
+[2.669s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[2.669s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[2.670s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[2.670s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[2.671s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_fastrtps_cpp.hpp
+[2.671s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/dds_fastrtps
+[2.671s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_fastrtps_cpp.hpp
+[2.672s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[2.672s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_fastrtps_cpp.hpp
+[2.673s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_fastrtps_cpp.so
+[2.673s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[2.674s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[2.674s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[2.674s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.c
+[2.675s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[2.675s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.c
+[2.675s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_introspection_c.h
+[2.676s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.c
+[2.676s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_c.h
+[2.676s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_introspection_c.h
+[2.677s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.c
+[2.677s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[2.678s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_c.so
+[2.678s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_c.so
+[2.679s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs
+[2.679s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg
+[2.679s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail
+[2.680s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__type_support.cpp
+[2.681s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__type_support.cpp
+[2.681s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__rosidl_typesupport_introspection_cpp.hpp
+[2.681s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/feedback__rosidl_typesupport_introspection_cpp.hpp
+[2.682s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/report__type_support.cpp
+[2.682s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__type_support.cpp
+[2.683s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[2.683s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/include/ds4_driver_msgs/ds4_driver_msgs/msg/detail/trackpad__rosidl_typesupport_introspection_cpp.hpp
+[2.683s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_introspection_cpp.so
+[2.685s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_typesupport_cpp.so
+[2.686s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/pythonpath.sh
+[2.686s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/pythonpath.dsv
+[2.687s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info
+[2.687s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/SOURCES.txt
+[2.689s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/dependency_links.txt
+[2.690s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/PKG-INFO
+[2.691s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs-0.0.0-py3.10.egg-info/top_level.txt
+[2.692s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs
+[2.693s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/__init__.py
+[2.693s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.694s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_c.c
+[2.694s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.695s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[2.695s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/libds4_driver_msgs__rosidl_generator_py.so
+[2.696s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/_ds4_driver_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[2.696s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg
+[2.697s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/__init__.py
+[2.697s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad.py
+[2.698s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_trackpad_s.c
+[2.698s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report.py
+[2.699s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback_s.c
+[2.699s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_report_s.c
+[2.699s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status_s.c
+[2.700s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_feedback.py
+[2.700s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg/_status.py
+[2.701s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.840s] Listing '/home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs'...
+[2.841s] Listing '/home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/msg'...
+[2.863s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[2.865s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[2.867s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages/ds4_driver_msgs/ds4_driver_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[2.869s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/lib/libds4_driver_msgs__rosidl_generator_py.so
+[2.871s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Feedback.idl
+[2.871s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Status.idl
+[2.872s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Report.idl
+[2.873s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Trackpad.idl
+[2.873s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Feedback.msg
+[2.873s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Status.msg
+[2.874s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Report.msg
+[2.874s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/msg/Trackpad.msg
+[2.875s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ament_index/resource_index/package_run_dependencies/ds4_driver_msgs
+[2.875s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ament_index/resource_index/parent_prefix_path/ds4_driver_msgs
+[2.877s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/ament_prefix_path.sh
+[2.877s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/ament_prefix_path.dsv
+[2.878s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/path.sh
+[2.878s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/environment/path.dsv
+[2.878s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.bash
+[2.879s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.sh
+[2.879s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.zsh
+[2.880s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/local_setup.dsv
+[2.881s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.dsv
+[2.881s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ament_index/resource_index/packages/ds4_driver_msgs
+[2.881s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cExport.cmake
+[2.882s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cExport-noconfig.cmake
+[2.883s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[2.883s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[2.884s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_cppExport.cmake
+[2.884s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[2.885s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[2.885s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cExport.cmake
+[2.885s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[2.886s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cExport.cmake
+[2.887s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[2.888s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[2.888s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[2.889s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cppExport.cmake
+[2.889s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[2.890s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_pyExport.cmake
+[2.892s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/export_ds4_driver_msgs__rosidl_generator_pyExport-noconfig.cmake
+[2.892s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake-extras.cmake
+[2.893s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.893s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.894s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[2.895s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[2.895s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[2.895s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[2.896s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgsConfig.cmake
+[2.896s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake/ds4_driver_msgsConfig-version.cmake
+[2.897s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.xml
+[2.903s] Invoked command in '/home/ubuntu/dualshock/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dualshock/build/ds4_driver_msgs

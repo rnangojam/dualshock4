@@ -1,0 +1,31 @@
+[0.044s] Invoking command in '/home/ubuntu/dualshock/build/ds4_driver': AMENT_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/DynamixelSDK:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/dualshock/build/ds4_driver -- -j4 -l4
+[0.135s] -- Found ament_cmake: 1.3.10 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.688s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.820s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.830s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.853s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.890s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.938s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.142s] -- Found ds4_driver_msgs: 0.0.0 (/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/cmake)
+[1.205s] -- Found rclpy: 3.3.14 (/opt/ros/humble/share/rclpy/cmake)
+[1.337s] [31mCMake Error at CMakeLists.txt:28 (find_package):
+[1.337s]   By not providing "FindDynamixelSDK.cmake" in CMAKE_MODULE_PATH this project
+[1.337s]   has asked CMake to find a package configuration file provided by
+[1.338s]   "DynamixelSDK", but CMake did not find one.
+[1.338s] 
+[1.339s]   Could not find a package configuration file provided by "DynamixelSDK" with
+[1.340s]   any of the following names:
+[1.341s] 
+[1.342s]     DynamixelSDKConfig.cmake
+[1.342s]     dynamixelsdk-config.cmake
+[1.342s] 
+[1.343s]   Add the installation prefix of "DynamixelSDK" to CMAKE_PREFIX_PATH or set
+[1.344s]   "DynamixelSDK_DIR" to a directory containing one of the above files.  If
+[1.345s]   "DynamixelSDK" provides a separate development package or SDK, be sure it
+[1.346s]   has been installed.
+[1.347s] 
+[1.348s] [0m
+[1.349s] -- Configuring incomplete, errors occurred!
+[1.349s] See also "/home/ubuntu/dualshock/build/ds4_driver/CMakeFiles/CMakeOutput.log".
+[1.353s] gmake: *** [Makefile:254: cmake_check_build_system] Error 1
+[1.359s] Invoked command in '/home/ubuntu/dualshock/build/ds4_driver' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/DynamixelSDK:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/dualshock/install/ds4_driver_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/dualshock/build/ds4_driver -- -j4 -l4

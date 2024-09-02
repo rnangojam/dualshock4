@@ -1,0 +1,10 @@
+/home/ubuntu/dualshock/build/prototype_motor/CMakeFiles/uninstall.dir
+/home/ubuntu/dualshock/build/prototype_motor/CMakeFiles/prototype_motor_uninstall.dir
+/home/ubuntu/dualshock/build/prototype_motor/CMakeFiles/nurimotor.dir
+/home/ubuntu/dualshock/build/prototype_motor/CMakeFiles/test.dir
+/home/ubuntu/dualshock/build/prototype_motor/CMakeFiles/edit_cache.dir
+/home/ubuntu/dualshock/build/prototype_motor/CMakeFiles/rebuild_cache.dir
+/home/ubuntu/dualshock/build/prototype_motor/CMakeFiles/list_install_components.dir
+/home/ubuntu/dualshock/build/prototype_motor/CMakeFiles/install.dir
+/home/ubuntu/dualshock/build/prototype_motor/CMakeFiles/install/local.dir
+/home/ubuntu/dualshock/build/prototype_motor/CMakeFiles/install/strip.dir

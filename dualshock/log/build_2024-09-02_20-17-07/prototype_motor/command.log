@@ -1,0 +1,1 @@
+Invoking command in '/home/ubuntu/dualshock/build/prototype_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/prototype_motor -- -j4 -l4

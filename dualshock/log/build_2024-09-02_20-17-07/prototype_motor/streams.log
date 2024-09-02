@@ -1,0 +1,5 @@
+[0.078s] Invoking command in '/home/ubuntu/dualshock/build/prototype_motor': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/prototype_motor -- -j4 -l4
+[0.258s] [35m[1mConsolidate compiler generated dependencies of target nurimotor[0m
+[0.460s] [ 50%] [32mBuilding CXX object CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o[0m
+[44.739s] [100%] [32m[1mLinking CXX executable nurimotor[0m
+[47.181s] [100%] Built target nurimotor

@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target nurimotor[0m
+[100%] Built target nurimotor
+-- Install configuration: ""
+-- Installing: /home/ubuntu/dualshock/install/prototype_motor/lib/prototype_motor/nurimotor
+-- Set runtime path of "/home/ubuntu/dualshock/install/prototype_motor/lib/prototype_motor/nurimotor" to ""
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/ament_index/resource_index/package_run_dependencies/prototype_motor
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/ament_index/resource_index/parent_prefix_path/prototype_motor
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/environment/ament_prefix_path.sh
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/environment/path.sh
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/environment/path.dsv
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/local_setup.bash
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/local_setup.sh
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/local_setup.zsh
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/local_setup.dsv
+-- Installing: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.dsv
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/ament_index/resource_index/packages/prototype_motor
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/cmake/prototype_motorConfig.cmake
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/cmake/prototype_motorConfig-version.cmake
+-- Up-to-date: /home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.xml

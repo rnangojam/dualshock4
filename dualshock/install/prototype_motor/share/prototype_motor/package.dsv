@@ -1,0 +1,8 @@
+source;share/prototype_motor/hook/cmake_prefix_path.ps1
+source;share/prototype_motor/hook/cmake_prefix_path.dsv
+source;share/prototype_motor/hook/cmake_prefix_path.sh
+source;share/prototype_motor/local_setup.bash
+source;share/prototype_motor/local_setup.dsv
+source;share/prototype_motor/local_setup.ps1
+source;share/prototype_motor/local_setup.sh
+source;share/prototype_motor/local_setup.zsh

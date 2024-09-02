@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:82 (file):
+  file INSTALL cannot find
+  "/home/ubuntu/dualshock/src/ds4_driver/ds4_driver/nodes/nuri_control_node.py":
+  No such file or directory.
+
+[0m

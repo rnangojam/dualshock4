@@ -1,0 +1,59 @@
+[0.049s] Invoking command in '/home/ubuntu/dualshock/build/ds4_driver': CMAKE_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/dualshock/install/ds4_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/ds4_driver -- -j4 -l4
+[0.277s] Built target ament_cmake_python_copy_ds4_driver
+[1.981s] running egg_info
+[1.987s] writing ds4_driver.egg-info/PKG-INFO
+[1.993s] writing dependency_links to ds4_driver.egg-info/dependency_links.txt
+[2.001s] writing top-level names to ds4_driver.egg-info/top_level.txt
+[2.023s] reading manifest file 'ds4_driver.egg-info/SOURCES.txt'
+[2.031s] writing manifest file 'ds4_driver.egg-info/SOURCES.txt'
+[2.233s] Built target ament_cmake_python_build_ds4_driver_egg
+[2.282s] Invoked command in '/home/ubuntu/dualshock/build/ds4_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/dualshock/install/ds4_driver:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/ds4_driver -- -j4 -l4
+[2.396s] Invoking command in '/home/ubuntu/dualshock/build/ds4_driver': CMAKE_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/dualshock/install/ds4_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dualshock/build/ds4_driver
+[2.424s] -- Install configuration: ""
+[2.428s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/pythonpath.sh
+[2.429s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/pythonpath.dsv
+[2.431s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info
+[2.431s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/SOURCES.txt
+[2.433s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/dependency_links.txt
+[2.438s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/PKG-INFO
+[2.438s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver-0.2.1-py3.10.egg-info/top_level.txt
+[2.439s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver
+[2.440s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/__init__.py
+[2.440s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/logger.py
+[2.441s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller_ros.py
+[2.441s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver/controller.py
+[2.637s] Listing '/home/ubuntu/dualshock/install/ds4_driver/local/lib/python3.10/dist-packages/ds4_driver'...
+[2.664s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//config
+[2.665s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//config/params.yaml
+[2.667s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//config/twist_6dof.yaml
+[2.669s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//config/twist_2dof.yaml
+[2.671s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//launch
+[2.675s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//launch/ds4_driver.launch.xml
+[2.676s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//launch/ds4_twist.launch.xml
+[2.678s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//launch/test.launch.py
+[2.679s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//launch/demo.launch.xml
+[2.681s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//nodes
+[2.685s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//nodes/ds4_driver_node.py
+[2.687s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//nodes/ds4_twist_node.py
+[2.688s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//nodes/ds4_test_node.py
+[2.688s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver//nodes/demo.py
+[2.689s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/lib/ds4_driver/demo.py
+[2.690s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/lib/ds4_driver/ds4_driver_node.py
+[2.691s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/lib/ds4_driver/ds4_twist_node.py
+[2.691s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/lib/ds4_driver/ds4_test_node.py
+[2.692s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ament_index/resource_index/package_run_dependencies/ds4_driver
+[2.693s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ament_index/resource_index/parent_prefix_path/ds4_driver
+[2.694s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/ament_prefix_path.sh
+[2.695s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/ament_prefix_path.dsv
+[2.696s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/path.sh
+[2.696s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/environment/path.dsv
+[2.697s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/local_setup.bash
+[2.698s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/local_setup.sh
+[2.698s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/local_setup.zsh
+[2.699s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/local_setup.dsv
+[2.699s] -- Installing: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.dsv
+[2.700s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ament_index/resource_index/packages/ds4_driver
+[2.701s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig.cmake
+[2.702s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/cmake/ds4_driverConfig-version.cmake
+[2.703s] -- Up-to-date: /home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.xml
+[2.704s] Invoked command in '/home/ubuntu/dualshock/build/ds4_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/dualshock/install/ds4_driver:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dualshock/build/ds4_driver

@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target nurimotor[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nurimotor.dir/src/nurimotor_control.cpp.o[0m
+[100%] [32m[1mLinking CXX executable nurimotor[0m
+[100%] Built target nurimotor

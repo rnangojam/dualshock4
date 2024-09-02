@@ -1,0 +1,19 @@
+running egg_info
+writing ../../../../build/prototype_move/prototype_move.egg-info/PKG-INFO
+writing dependency_links to ../../../../build/prototype_move/prototype_move.egg-info/dependency_links.txt
+writing entry points to ../../../../build/prototype_move/prototype_move.egg-info/entry_points.txt
+writing requirements to ../../../../build/prototype_move/prototype_move.egg-info/requires.txt
+writing top-level names to ../../../../build/prototype_move/prototype_move.egg-info/top_level.txt
+reading manifest file '../../../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+writing manifest file '../../../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/ubuntu/dualshock/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../../../build/prototype_move/prototype_move.egg-info to /home/ubuntu/dualshock/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info
+running install_scripts
+Installing teleop_keyboard script to /home/ubuntu/dualshock/install/prototype_move/lib/prototype_move
+writing list of installed files to '/home/ubuntu/dualshock/build/prototype_move/install.log'

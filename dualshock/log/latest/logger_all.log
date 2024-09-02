@@ -1,0 +1,441 @@
+[0.665s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.665s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa1c8fd90>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa1dd5360>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa1dd5360>>)
+[1.873s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.874s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.874s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.874s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.874s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.875s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.875s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/dualshock'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.939s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extensions ['ignore', 'ignore_ament_install']
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extension 'ignore'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extension 'ignore_ament_install'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extensions ['colcon_pkg']
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extension 'colcon_pkg'
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extensions ['colcon_meta']
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extension 'colcon_meta'
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extensions ['ros']
+[1.947s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extension 'ros'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extensions ['cmake', 'python']
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extension 'cmake'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extension 'python'
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extensions ['python_setup_py']
+[1.948s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military) by extension 'python_setup_py'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extensions ['ignore', 'ignore_ament_install']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extension 'ignore'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extension 'ignore_ament_install'
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extensions ['colcon_pkg']
+[1.949s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extension 'colcon_pkg'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extensions ['colcon_meta']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extension 'colcon_meta'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extensions ['ros']
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extension 'ros'
+[1.950s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extensions ['cmake', 'python']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extension 'cmake'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extension 'python'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extensions ['python_setup_py']
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military) by extension 'python_setup_py'
+[1.951s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extensions ['ignore', 'ignore_ament_install']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extension 'ignore'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extension 'ignore_ament_install'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extensions ['colcon_pkg']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extension 'colcon_pkg'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extensions ['colcon_meta']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extension 'colcon_meta'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extensions ['ros']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extension 'ros'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extensions ['cmake', 'python']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extension 'cmake'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extension 'python'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extensions ['python_setup_py']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src) by extension 'python_setup_py'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_motor) by extensions ['ignore', 'ignore_ament_install']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_motor) by extension 'ignore'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_motor) by extension 'ignore_ament_install'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_motor) by extensions ['colcon_pkg']
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_motor) by extension 'colcon_pkg'
+[1.955s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_motor) by extensions ['colcon_meta']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_motor) by extension 'colcon_meta'
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_motor) by extensions ['ros']
+[1.956s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_motor) by extension 'ros'
+[1.964s] DEBUG:colcon.colcon_core.package_identification:Package 'Prototype_Military/prototype_military/src/prototype_motor' with type 'ros.ament_cmake' and name 'prototype_motor'
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_move) by extensions ['ignore', 'ignore_ament_install']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_move) by extension 'ignore'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_move) by extension 'ignore_ament_install'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_move) by extensions ['colcon_pkg']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_move) by extension 'colcon_pkg'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_move) by extensions ['colcon_meta']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_move) by extension 'colcon_meta'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_move) by extensions ['ros']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/prototype_move) by extension 'ros'
+[1.969s] DEBUG:colcon.colcon_core.package_identification:Package 'Prototype_Military/prototype_military/src/prototype_move' with type 'ros.ament_python' and name 'prototype_move'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extensions ['ignore', 'ignore_ament_install']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extension 'ignore'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extension 'ignore_ament_install'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extensions ['colcon_pkg']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extension 'colcon_pkg'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extensions ['colcon_meta']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extension 'colcon_meta'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extensions ['ros']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extension 'ros'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extensions ['cmake', 'python']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extension 'cmake'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extension 'python'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extensions ['python_setup_py']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/realsense-ros) by extension 'python_setup_py'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extension 'ignore'
+[1.973s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extension 'ignore_ament_install'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extensions ['colcon_pkg']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extension 'colcon_pkg'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extensions ['colcon_meta']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extension 'colcon_meta'
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extensions ['ros']
+[1.974s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extension 'ros'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extensions ['cmake', 'python']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extension 'cmake'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extension 'python'
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extensions ['python_setup_py']
+[1.975s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/ydlidar_ros2_driver) by extension 'python_setup_py'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extensions ['ignore', 'ignore_ament_install']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extension 'ignore_ament_install'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extensions ['colcon_pkg']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extensions ['colcon_meta']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extension 'colcon_meta'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extensions ['ros']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extension 'ros'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extensions ['cmake', 'python']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extension 'cmake'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extension 'python'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extensions ['python_setup_py']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(Prototype_Military/prototype_military/src/yolov8_ros) by extension 'python_setup_py'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.979s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.980s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.982s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.983s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.984s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'ignore'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'ignore_ament_install'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['colcon_pkg']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'colcon_pkg'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['colcon_meta']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'colcon_meta'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['ros']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'ros'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['cmake', 'python']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'cmake'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'python'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extensions ['python_setup_py']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver) by extension 'python_setup_py'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['ignore', 'ignore_ament_install']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'ignore'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'ignore_ament_install'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['colcon_pkg']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'colcon_pkg'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['colcon_meta']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'colcon_meta'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['ros']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'ros'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['cmake', 'python']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'cmake'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'python'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extensions ['python_setup_py']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/docker) by extension 'python_setup_py'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extension 'ignore'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extension 'ignore_ament_install'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extensions ['colcon_pkg']
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extension 'colcon_pkg'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extensions ['colcon_meta']
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extension 'colcon_meta'
+[1.992s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extensions ['ros']
+[1.993s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver) by extension 'ros'
+[1.996s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ds4_driver/ds4_driver' with type 'ros.ament_cmake' and name 'ds4_driver'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extension 'ignore'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extension 'ignore_ament_install'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extensions ['colcon_pkg']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extension 'colcon_pkg'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extensions ['colcon_meta']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extension 'colcon_meta'
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extensions ['ros']
+[1.998s] Level 1:colcon.colcon_core.package_identification:_identify(src/ds4_driver/ds4_driver_msgs) by extension 'ros'
+[2.001s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ds4_driver/ds4_driver_msgs' with type 'ros.ament_cmake' and name 'ds4_driver_msgs'
+[2.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.001s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.100s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.101s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.110s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 4 installed packages in /home/ubuntu/dualshock/install
+[2.118s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 271 installed packages in /opt/ros/humble
+[2.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.323s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_args' from command line to 'None'
+[2.323s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_target' from command line to 'None'
+[2.323s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.324s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.324s] DEBUG:colcon.colcon_core.verb:Building package 'ds4_driver_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/dualshock/build/ds4_driver_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/dualshock/install/ds4_driver_msgs', 'merge_install': False, 'path': '/home/ubuntu/dualshock/src/ds4_driver/ds4_driver_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'prototype_motor' build argument 'cmake_args' from command line to 'None'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'prototype_motor' build argument 'cmake_target' from command line to 'None'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'prototype_motor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'prototype_motor' build argument 'cmake_clean_cache' from command line to 'False'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'prototype_motor' build argument 'cmake_clean_first' from command line to 'False'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'prototype_motor' build argument 'cmake_force_configure' from command line to 'False'
+[2.326s] Level 5:colcon.colcon_core.verb:set package 'prototype_motor' build argument 'ament_cmake_args' from command line to 'None'
+[2.327s] Level 5:colcon.colcon_core.verb:set package 'prototype_motor' build argument 'catkin_cmake_args' from command line to 'None'
+[2.327s] Level 5:colcon.colcon_core.verb:set package 'prototype_motor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.327s] DEBUG:colcon.colcon_core.verb:Building package 'prototype_motor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/dualshock/build/prototype_motor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/dualshock/install/prototype_motor', 'merge_install': False, 'path': '/home/ubuntu/dualshock/Prototype_Military/prototype_military/src/prototype_motor', 'symlink_install': False, 'test_result_base': None}
+[2.328s] Level 5:colcon.colcon_core.verb:set package 'prototype_move' build argument 'cmake_args' from command line to 'None'
+[2.328s] Level 5:colcon.colcon_core.verb:set package 'prototype_move' build argument 'cmake_target' from command line to 'None'
+[2.328s] Level 5:colcon.colcon_core.verb:set package 'prototype_move' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.328s] Level 5:colcon.colcon_core.verb:set package 'prototype_move' build argument 'cmake_clean_cache' from command line to 'False'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'prototype_move' build argument 'cmake_clean_first' from command line to 'False'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'prototype_move' build argument 'cmake_force_configure' from command line to 'False'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'prototype_move' build argument 'ament_cmake_args' from command line to 'None'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'prototype_move' build argument 'catkin_cmake_args' from command line to 'None'
+[2.329s] Level 5:colcon.colcon_core.verb:set package 'prototype_move' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.329s] DEBUG:colcon.colcon_core.verb:Building package 'prototype_move' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/dualshock/build/prototype_move', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/dualshock/install/prototype_move', 'merge_install': False, 'path': '/home/ubuntu/dualshock/Prototype_Military/prototype_military/src/prototype_move', 'symlink_install': False, 'test_result_base': None}
+[2.330s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_args' from command line to 'None'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_target' from command line to 'None'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.331s] Level 5:colcon.colcon_core.verb:set package 'ds4_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.331s] DEBUG:colcon.colcon_core.verb:Building package 'ds4_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/dualshock/build/ds4_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/dualshock/install/ds4_driver', 'merge_install': False, 'path': '/home/ubuntu/dualshock/src/ds4_driver/ds4_driver', 'symlink_install': False, 'test_result_base': None}
+[2.332s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.335s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.336s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/dualshock/src/ds4_driver/ds4_driver_msgs' with build type 'ament_cmake'
+[2.337s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/dualshock/src/ds4_driver/ds4_driver_msgs'
+[2.346s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.347s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.347s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.366s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/dualshock/Prototype_Military/prototype_military/src/prototype_motor' with build type 'ament_cmake'
+[2.367s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/dualshock/Prototype_Military/prototype_military/src/prototype_motor'
+[2.368s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.369s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.388s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/dualshock/Prototype_Military/prototype_military/src/prototype_move' with build type 'ament_python'
+[2.389s] Level 1:colcon.colcon_core.shell:create_environment_hook('prototype_move', 'ament_prefix_path')
+[2.390s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/hook/ament_prefix_path.ps1'
+[2.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/hook/ament_prefix_path.dsv'
+[2.395s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/hook/ament_prefix_path.sh'
+[2.399s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.399s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.432s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/dualshock/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/ds4_driver_msgs -- -j4 -l4
+[2.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/dualshock/build/prototype_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/prototype_motor -- -j4 -l4
+[4.101s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/dualshock/Prototype_Military/prototype_military/src/prototype_move'
+[4.102s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[4.103s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[4.610s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/dualshock/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/ds4_driver_msgs -- -j4 -l4
+[5.326s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/dualshock/build/ds4_driver_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dualshock/build/ds4_driver_msgs
+[5.687s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ds4_driver_msgs)
+[5.700s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/dualshock/build/ds4_driver_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dualshock/build/ds4_driver_msgs
+[5.711s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs' for CMake module files
+[5.715s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs' for CMake config files
+[5.720s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver_msgs', 'cmake_prefix_path')
+[5.721s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.ps1'
+[5.723s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.dsv'
+[5.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.sh'
+[5.728s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs/lib'
+[5.729s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver_msgs', 'ld_library_path_lib')
+[5.730s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.ps1'
+[5.732s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.dsv'
+[5.734s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.sh'
+[5.737s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs/bin'
+[5.737s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs/lib/pkgconfig/ds4_driver_msgs.pc'
+[5.738s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs/lib/python3.10/site-packages'
+[5.739s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs/bin'
+[5.741s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.ps1'
+[5.745s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.dsv'
+[5.748s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.sh'
+[5.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.bash'
+[5.756s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.zsh'
+[5.759s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/dualshock/install/ds4_driver_msgs/share/colcon-core/packages/ds4_driver_msgs)
+[6.138s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/dualshock/Prototype_Military/prototype_military/src/prototype_move': PYTHONPATH=/home/ubuntu/dualshock/build/prototype_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/dualshock/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/prototype_move build --build-base /home/ubuntu/dualshock/build/prototype_move/build install --record /home/ubuntu/dualshock/build/prototype_move/install.log --single-version-externally-managed install_data
+[6.493s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ds4_driver_msgs)
+[6.494s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs' for CMake module files
+[6.499s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs' for CMake config files
+[6.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver_msgs', 'cmake_prefix_path')
+[6.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.ps1'
+[6.507s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.dsv'
+[6.510s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/cmake_prefix_path.sh'
+[6.513s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs/lib'
+[6.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver_msgs', 'ld_library_path_lib')
+[6.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.ps1'
+[6.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.dsv'
+[6.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/hook/ld_library_path_lib.sh'
+[6.524s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs/bin'
+[6.525s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs/lib/pkgconfig/ds4_driver_msgs.pc'
+[6.526s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs/lib/python3.10/site-packages'
+[6.527s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver_msgs/bin'
+[6.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.ps1'
+[6.532s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.dsv'
+[6.535s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.sh'
+[6.539s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.bash'
+[6.542s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver_msgs/share/ds4_driver_msgs/package.zsh'
+[6.545s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/dualshock/install/ds4_driver_msgs/share/colcon-core/packages/ds4_driver_msgs)
+[6.548s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/dualshock/src/ds4_driver/ds4_driver' with build type 'ament_cmake'
+[6.548s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/dualshock/src/ds4_driver/ds4_driver'
+[6.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/dualshock/build/ds4_driver': CMAKE_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/dualshock/install/prototype_motor:/home/ubuntu/dualshock/install/ds4_driver:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/ds4_driver -- -j4 -l4
+[7.868s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_move' for CMake module files
+[7.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/dualshock/Prototype_Military/prototype_military/src/prototype_move' returned '0': PYTHONPATH=/home/ubuntu/dualshock/build/prototype_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/dualshock/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/prototype_move build --build-base /home/ubuntu/dualshock/build/prototype_move/build install --record /home/ubuntu/dualshock/build/prototype_move/install.log --single-version-externally-managed install_data
+[7.873s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_move' for CMake config files
+[7.877s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_move/lib'
+[7.877s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_move/bin'
+[7.878s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_move/lib/pkgconfig/prototype_move.pc'
+[7.879s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_move/lib/python3.10/site-packages'
+[7.879s] Level 1:colcon.colcon_core.shell:create_environment_hook('prototype_move', 'pythonpath')
+[7.881s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/hook/pythonpath.ps1'
+[7.883s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/hook/pythonpath.dsv'
+[7.885s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/hook/pythonpath.sh'
+[7.889s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_move/bin'
+[7.890s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(prototype_move)
+[7.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/package.ps1'
+[7.893s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/package.dsv'
+[7.897s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/package.sh'
+[7.900s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/package.bash'
+[7.902s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_move/share/prototype_move/package.zsh'
+[7.904s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/dualshock/install/prototype_move/share/colcon-core/packages/prototype_move)
+[10.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/dualshock/build/ds4_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/dualshock/install/prototype_motor:/home/ubuntu/dualshock/install/ds4_driver:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/ds4_driver -- -j4 -l4
+[11.040s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/dualshock/build/ds4_driver': CMAKE_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/dualshock/install/prototype_motor:/home/ubuntu/dualshock/install/ds4_driver:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dualshock/build/ds4_driver
+[11.306s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ds4_driver)
+[11.307s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver' for CMake module files
+[11.309s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/dualshock/build/ds4_driver' returned '0': CMAKE_PREFIX_PATH=/home/ubuntu/dualshock/install/ds4_driver_msgs:/home/ubuntu/dualshock/install/prototype_motor:/home/ubuntu/dualshock/install/ds4_driver:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dualshock/build/ds4_driver
+[11.312s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver' for CMake config files
+[11.316s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver', 'cmake_prefix_path')
+[11.317s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.ps1'
+[11.319s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.dsv'
+[11.322s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.sh'
+[11.325s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver/lib'
+[11.325s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver/bin'
+[11.326s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver/lib/pkgconfig/ds4_driver.pc'
+[11.327s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver/lib/python3.10/site-packages'
+[11.328s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver/bin'
+[11.329s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.ps1'
+[11.333s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.dsv'
+[11.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.sh'
+[11.337s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.bash'
+[11.339s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.zsh'
+[11.341s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/dualshock/install/ds4_driver/share/colcon-core/packages/ds4_driver)
+[11.450s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ds4_driver)
+[11.451s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver' for CMake module files
+[11.454s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver' for CMake config files
+[11.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('ds4_driver', 'cmake_prefix_path')
+[11.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.ps1'
+[11.461s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.dsv'
+[11.463s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/hook/cmake_prefix_path.sh'
+[11.466s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver/lib'
+[11.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver/bin'
+[11.467s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver/lib/pkgconfig/ds4_driver.pc'
+[11.469s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver/lib/python3.10/site-packages'
+[11.470s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/ds4_driver/bin'
+[11.471s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.ps1'
+[11.474s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.dsv'
+[11.477s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.sh'
+[11.480s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.bash'
+[11.482s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/ds4_driver/share/ds4_driver/package.zsh'
+[11.485s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/dualshock/install/ds4_driver/share/colcon-core/packages/ds4_driver)
+[49.878s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/dualshock/build/prototype_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/dualshock/build/prototype_motor -- -j4 -l4
+[50.023s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/dualshock/build/prototype_motor': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dualshock/build/prototype_motor
+[50.102s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(prototype_motor)
+[50.103s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor' for CMake module files
+[50.104s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/dualshock/build/prototype_motor' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/dualshock/install/prototype_move:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/dualshock/build/prototype_motor
+[50.107s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor' for CMake config files
+[50.109s] Level 1:colcon.colcon_core.shell:create_environment_hook('prototype_motor', 'cmake_prefix_path')
+[50.110s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/hook/cmake_prefix_path.ps1'
+[50.112s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/hook/cmake_prefix_path.dsv'
+[50.113s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/hook/cmake_prefix_path.sh'
+[50.116s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor/lib'
+[50.116s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor/bin'
+[50.117s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor/lib/pkgconfig/prototype_motor.pc'
+[50.118s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor/lib/python3.10/site-packages'
+[50.118s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor/bin'
+[50.119s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.ps1'
+[50.121s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.dsv'
+[50.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.sh'
+[50.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.bash'
+[50.127s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.zsh'
+[50.128s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/dualshock/install/prototype_motor/share/colcon-core/packages/prototype_motor)
+[50.257s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(prototype_motor)
+[50.258s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor' for CMake module files
+[50.261s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor' for CMake config files
+[50.263s] Level 1:colcon.colcon_core.shell:create_environment_hook('prototype_motor', 'cmake_prefix_path')
+[50.264s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/hook/cmake_prefix_path.ps1'
+[50.266s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/hook/cmake_prefix_path.dsv'
+[50.267s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/hook/cmake_prefix_path.sh'
+[50.270s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor/lib'
+[50.270s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor/bin'
+[50.271s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor/lib/pkgconfig/prototype_motor.pc'
+[50.272s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor/lib/python3.10/site-packages'
+[50.272s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/dualshock/install/prototype_motor/bin'
+[50.274s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.ps1'
+[50.276s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.dsv'
+[50.278s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.sh'
+[50.280s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.bash'
+[50.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/dualshock/install/prototype_motor/share/prototype_motor/package.zsh'
+[50.284s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/dualshock/install/prototype_motor/share/colcon-core/packages/prototype_motor)
+[50.285s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[50.287s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[50.287s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[50.287s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[50.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[50.328s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[50.329s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[50.329s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[50.332s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[50.333s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[50.334s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/dualshock/install/local_setup.ps1'
+[50.339s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/dualshock/install/_local_setup_util_ps1.py'
+[50.348s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/dualshock/install/setup.ps1'
+[50.356s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/dualshock/install/local_setup.sh'
+[50.362s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/dualshock/install/_local_setup_util_sh.py'
+[50.364s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/dualshock/install/setup.sh'
+[50.371s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/dualshock/install/local_setup.bash'
+[50.375s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/dualshock/install/setup.bash'
+[50.382s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/dualshock/install/local_setup.zsh'
+[50.387s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/dualshock/install/setup.zsh'

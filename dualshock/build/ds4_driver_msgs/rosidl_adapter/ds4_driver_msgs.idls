@@ -1,0 +1,4 @@
+/home/ubuntu/dualshock/build/ds4_driver_msgs/rosidl_adapter/ds4_driver_msgs:msg/Feedback.idl
+/home/ubuntu/dualshock/build/ds4_driver_msgs/rosidl_adapter/ds4_driver_msgs:msg/Status.idl
+/home/ubuntu/dualshock/build/ds4_driver_msgs/rosidl_adapter/ds4_driver_msgs:msg/Report.idl
+/home/ubuntu/dualshock/build/ds4_driver_msgs/rosidl_adapter/ds4_driver_msgs:msg/Trackpad.idl

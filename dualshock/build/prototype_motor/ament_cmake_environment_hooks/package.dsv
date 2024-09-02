@@ -1,0 +1,4 @@
+source;share/prototype_motor/local_setup.bash
+source;share/prototype_motor/local_setup.dsv
+source;share/prototype_motor/local_setup.sh
+source;share/prototype_motor/local_setup.zsh

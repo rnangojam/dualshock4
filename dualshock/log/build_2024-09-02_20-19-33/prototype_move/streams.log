@@ -1,0 +1,21 @@
+[3.476s] Invoking command in '/home/ubuntu/dualshock/Prototype_Military/prototype_military/src/prototype_move': PYTHONPATH=/home/ubuntu/dualshock/build/prototype_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/dualshock/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/prototype_move build --build-base /home/ubuntu/dualshock/build/prototype_move/build install --record /home/ubuntu/dualshock/build/prototype_move/install.log --single-version-externally-managed install_data
+[4.689s] running egg_info
+[4.692s] writing ../../../../build/prototype_move/prototype_move.egg-info/PKG-INFO
+[4.693s] writing dependency_links to ../../../../build/prototype_move/prototype_move.egg-info/dependency_links.txt
+[4.694s] writing entry points to ../../../../build/prototype_move/prototype_move.egg-info/entry_points.txt
+[4.694s] writing requirements to ../../../../build/prototype_move/prototype_move.egg-info/requires.txt
+[4.696s] writing top-level names to ../../../../build/prototype_move/prototype_move.egg-info/top_level.txt
+[4.704s] reading manifest file '../../../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[4.708s] writing manifest file '../../../../build/prototype_move/prototype_move.egg-info/SOURCES.txt'
+[4.709s] running build
+[4.710s] running build_py
+[4.711s] running install
+[4.712s] running install_lib
+[4.718s] running install_data
+[4.719s] running install_egg_info
+[4.727s] removing '/home/ubuntu/dualshock/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info' (and everything under it)
+[4.728s] Copying ../../../../build/prototype_move/prototype_move.egg-info to /home/ubuntu/dualshock/install/prototype_move/lib/python3.10/site-packages/prototype_move-0.0.0-py3.10.egg-info
+[4.734s] running install_scripts
+[4.816s] Installing teleop_keyboard script to /home/ubuntu/dualshock/install/prototype_move/lib/prototype_move
+[4.818s] writing list of installed files to '/home/ubuntu/dualshock/build/prototype_move/install.log'
+[4.939s] Invoked command in '/home/ubuntu/dualshock/Prototype_Military/prototype_military/src/prototype_move' returned '0': PYTHONPATH=/home/ubuntu/dualshock/build/prototype_move/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/dualshock/install/prototype_move/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../../../build/prototype_move build --build-base /home/ubuntu/dualshock/build/prototype_move/build install --record /home/ubuntu/dualshock/build/prototype_move/install.log --single-version-externally-managed install_data
